@@ -1,0 +1,30 @@
+Product() Initialing Constructor;1;Product1;80.9
+Product() Initialing Constructor (MOF);2;Product2;80.9; MOF
+CellPhone() Initialing Constructor;3;Product3;80.9;Testmodel;TestMacNumber;8.1
+CellPhone() Initialing Constructor MO;3;Product4;80.9;Testmodel;TestMacNumber;8.1; MOF
+setProduct();3;Product5;80.9;Testmodel;TestMacNumber;8.1;1000
+setProduct() (MOF);3;Product6;80.9;Testmodel;TestMacNumber;8.1;1000; MOF
+setName();3;Product7;80.9;Testmodel;TestMacNumber;8.1;This Changed
+setName() (MOF);3;Product8;80.9;Testmodel;TestMacNumber;8.1;This Changed; MOF
+setPrice();3;Product9;80.9;Testmodel;TestMacNumber;8.1;1000.00
+setPrice() (MOF);3;Product10;80.9;Testmodel;TestMacNumber;8.1;1000.00; MOF
+setModel();3;Product11;80.9;Testmodel;TestMacNumber;8.1;This Changed
+setModel() (MOF);3;Product12;80.9;Testmodel;TestMacNumber;8.1;This Changed; MOF
+setMacNumber();3;Product13;80.9;Testmodel;TestMacNumber;8.1;This Changed
+setMacNumber() (MOF);3;Product14;80.9;Testmodel;TestMacNumber;8.1;This Changed; MOF
+setScreenSize();3;Product15;80.9;Testmodel;TestMacNumber;8.1;1000.00
+setScreenSize() (MOF);3;Product16;80.9;Testmodel;TestMacNumber;8.1;1000.00; MOF
+get() methods;3;Product17;154.22;Testmodel;TestMacNumber1;23.4
+get() methods;3;Product18;124.32;Testmodel;TestMacNumber2;12; MOF
+Product compareTo();11223;11223;0
+Product compareTo();112;11223;-1
+Product compareTo();2231578;548;1
+Product compareTo() (MOF);1;1;1; MOF
+CellPhone compareTo();I-230;I-230;0
+CellPhone compareTo();Ed552;R2D2;-13
+CellPhone compareTo();Lex32;GS72;5
+CellPhone compareTo() (MOF);1;1;1; MOF
+Product equals();1;Product19;80.9;1;Product19;80.9;true
+Product equals();1;Product20;80.9;1;Product21;80.9;false
+CellPhone equals();3;Product3;80.9;Testmodel;TestMacNumber;8.1;3;Product3;80.9;Testmodel;TestMacNumber;8.1;true
+CellPhone equals();3;Product3;1023;Testmodel;TestMacNumber;8.1;3;Product3;80.9;Testmodel;TestMacNumber;8.1;false

@@ -1,0 +1,263 @@
+--------------------------------------------------------------
+|       Product Class and CellPhone Class Test Program       |
+--------------------------------------------------------------
+***** MOF = Meant to Fail Test *****
+
+Constructor Methods Tests
+
+Product Default Constructor Test
+   Expected: 0 Unknown Product 0.00
+     Actual: 0 Unknown Product 0.00
+Test Result: Pass
+
+Product Default Constructor(MOF) Test
+   Expected: 0 Unknown Product 0.00   0.0
+     Actual: 1 testfailure case 903.00
+Test Result: Fail
+     Reason: Issue in Product Default Constructor(MOF)
+
+CellPhone Default Constructor Test
+   Expected: 0 Unknown Product 0.00   0.0
+     Actual: 0 Unknown Product 0.00   0.0
+Test Result: Pass
+
+CellPhone Default Constructor(MOF) Test
+   Expected: 0 Unknown Product 0.00   0.0
+     Actual: 1 testfailure case 903.00 s s 1.0
+Test Result: Fail
+     Reason: Issue in CellPhone Default Constructor(MOF)
+
+Product() Initialing Constructor Test
+   Expected: 1 Product1 80.90
+     Actual: 1 Product1 80.90
+Test Result: Pass
+
+Product() Initialing Constructor (MOF) Test
+   Expected: 2 Product2 80.90 MOF
+     Actual: 2 Product2 80.90
+Test Result: Fail
+     Reason: Issue in Product() Initialing Constructor (MOF)
+
+CellPhone() Initialing Constructor Test
+   Expected: 3 Product3 80.90 Testmodel TestMacNumber 8.1
+     Actual: 3 Product3 80.90 Testmodel TestMacNumber 8.1
+Test Result: Pass
+
+CellPhone() Initialing Constructor MO Test
+   Expected: 3 Product4 80.90 Testmodel TestMacNumber 8.1 MOF
+     Actual: 3 Product4 80.90 Testmodel TestMacNumber 8.1
+Test Result: Fail
+     Reason: Issue in CellPhone() Initialing Constructor MO
+
+--------------------------------------------------------------
+Set Methods Tests
+
+setProduct() Test
+   Expected: 1000 Product5 80.90 Testmodel TestMacNumber 8.1
+     Actual: 1000 Product5 80.90 Testmodel TestMacNumber 8.1
+Test Result: Pass
+
+setProduct() (MOF) Test
+   Expected: 1000 Product6 80.90 Testmodel TestMacNumber 8.1 MOF
+     Actual: 1000 Product6 80.90 Testmodel TestMacNumber 8.1
+Test Result: Fail
+     Reason: Issue in setProduct() (MOF)
+
+setName() Test
+   Expected: 3 This Changed 80.90 Testmodel TestMacNumber 8.1
+     Actual: 3 This Changed 80.90 Testmodel TestMacNumber 8.1
+Test Result: Pass
+
+setName() (MOF) Test
+   Expected: 3 This Changed 80.90 Testmodel TestMacNumber 8.1 MOF
+     Actual: 3 This Changed 80.90 Testmodel TestMacNumber 8.1
+Test Result: Fail
+     Reason: Issue in setName() (MOF)
+
+setPrice() Test
+   Expected: 3 Product9 1000.00 Testmodel TestMacNumber 8.1
+     Actual: 3 Product9 1000.00 Testmodel TestMacNumber 8.1
+Test Result: Pass
+
+setPrice() (MOF) Test
+   Expected: 3 Product10 1000.00 Testmodel TestMacNumber 8.1 MOF
+     Actual: 3 Product10 1000.00 Testmodel TestMacNumber 8.1
+Test Result: Fail
+     Reason: Issue in setPrice() (MOF)
+
+setModel() Test
+   Expected: 3 Product11 80.90 This Changed TestMacNumber 8.1
+     Actual: 3 Product11 80.90 This Changed TestMacNumber 8.1
+Test Result: Pass
+
+setModel() (MOF) Test
+   Expected: 3 Product12 80.90 This Changed TestMacNumber 8.1 MOF
+     Actual: 3 Product12 80.90 This Changed TestMacNumber 8.1
+Test Result: Fail
+     Reason: Issue in setModel() (MOF)
+
+setMacNumber() Test
+   Expected: 3 Product13 80.90 Testmodel This Changed 8.1
+     Actual: 3 Product13 80.90 Testmodel This Changed 8.1
+Test Result: Pass
+
+setMacNumber() (MOF) Test
+   Expected: 3 Product14 80.90 Testmodel This Changed 8.1 MOF
+     Actual: 3 Product14 80.90 Testmodel This Changed 8.1
+Test Result: Fail
+     Reason: Issue in setMacNumber() (MOF)
+
+setScreenSize() Test
+   Expected: 3 Product15 80.90 Testmodel TestMacNumber 1000.0
+     Actual: 3 Product15 80.90 Testmodel TestMacNumber 1000.0
+Test Result: Pass
+
+setScreenSize() (MOF) Test
+   Expected: 3 Product16 80.90 Testmodel TestMacNumber 1000.0 MOF
+     Actual: 3 Product16 80.90 Testmodel TestMacNumber 1000.0
+Test Result: Fail
+     Reason: Issue in setScreenSize() (MOF)
+
+--------------------------------------------------------------
+Get Methods Tests
+
+getProduct() Method Test
+   Expected: 3
+     Actual: 3
+Test Result: Pass
+
+getName() Method Test
+   Expected: Product17
+     Actual: Product17
+Test Result: Pass
+
+getPrice() Method Test
+   Expected: 154.22
+     Actual: 154.22
+Test Result: Pass
+
+getModel() Method Test
+   Expected: Testmodel
+     Actual: Testmodel
+Test Result: Pass
+
+getMacNumber() Method Test
+   Expected: TestMacNumber1
+     Actual: TestMacNumber1
+Test Result: Pass
+
+getScreenSize() Method Test
+   Expected: 23.4
+     Actual: 23.4
+Test Result: Pass
+
+getProduct() Method Test
+   Expected: 3 MOF
+     Actual: 3
+Test Result: Fail
+     Reason: Issue in getProduct() Method
+
+getName() Method Test
+   Expected: Product18 MOF
+     Actual: Product18
+Test Result: Fail
+     Reason: Issue in getName() Method
+
+getPrice() Method Test
+   Expected: 124.32 MOF
+     Actual: 124.32
+Test Result: Fail
+     Reason: Issue in getPrice() Method
+
+getModel() Method Test
+   Expected: Testmodel MOF
+     Actual: Testmodel
+Test Result: Fail
+     Reason: Issue in getModel() Method
+
+getMacNumber() Method Test
+   Expected: TestMacNumber2 MOF
+     Actual: TestMacNumber2
+Test Result: Fail
+     Reason: Issue in getMacNumber() Method
+
+getScreenSize() Method Test
+   Expected: 12.0 MOF
+     Actual: 12.0
+Test Result: Fail
+     Reason: Issue in getScreenSize() Method
+
+--------------------------------------------------------------
+compareTo Methods Tests
+
+Product compareTo() Test
+   Expected: 0
+     Actual: 0
+Test Result: Pass
+
+Product compareTo() Test
+   Expected: -1
+     Actual: -1
+Test Result: Pass
+
+Product compareTo() Test
+   Expected: 1
+     Actual: 1
+Test Result: Pass
+
+Product compareTo() (MOF) Test
+   Expected: 1
+     Actual: 0
+Test Result: Fail
+     Reason: Issue in Product compareTo() (MOF)
+
+CellPhone compareTo() Test
+   Expected: 0
+     Actual: 0
+Test Result: Pass
+
+CellPhone compareTo() Test
+   Expected: -13
+     Actual: -13
+Test Result: Pass
+
+CellPhone compareTo() Test
+   Expected: 5
+     Actual: 5
+Test Result: Pass
+
+CellPhone compareTo() (MOF) Test
+   Expected: 1
+     Actual: 0
+Test Result: Fail
+     Reason: Issue in CellPhone compareTo() (MOF)
+
+--------------------------------------------------------------
+equals Methods Tests
+
+Product equals() Test
+   Expected: true
+     Actual: false
+Test Result: Fail
+     Reason: Issue in Product equals()
+
+Product equals() Test
+   Expected: false
+     Actual: false
+Test Result: Pass
+
+CellPhone equals() Test
+   Expected: true
+     Actual: false
+Test Result: Fail
+     Reason: Issue in CellPhone equals()
+
+CellPhone equals() Test
+   Expected: false
+     Actual: false
+Test Result: Pass
+
+--------------------------------------------------------------
+                        End of Report                            
+               20 Test Fails out of 34 Tests
+--------------------------------------------------------------

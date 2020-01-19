@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Addition Game</string>
+    <string name="instruction_label">Can you figure out the sum?</string>
+    <string name="number_1">21</string>
+    <string name="number_2">222</string>
+    <string name="number_3">3</string>
+    <string name="buttonName">Guess?</string>
+
+</resources>
